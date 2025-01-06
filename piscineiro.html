@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piscineiro</title>
+    <link rel="stylesheet" href="jardineiro1.css">
+</head>
+
+<body>
+    <div class="divMae">
+        <header class="header">
+            <h1 class="logo">multi<span class="highlight">E</span></h1>
+        </header>
+        <div class="divGeral">
+            <div class="divLeft">
+                <div class="cardMae">
+                    <div class=" card">
+
+                        <div class="foto"><img id="foto" src="img/fotoPadrao5.jpg" alt=""></div>
+                        <div class="texto">
+                            <div>
+                                <p id="nome">Pedro Almeida</p>
+                            </div>
+                            <div>
+                                <p id=" profissao">Piscineiro</p>
+
+                            </div>
+                            <div>
+                                <p id="avaliacoes">Avaliações: 85 - 7.2 - Bom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-container">
+                    <div>
+                        <button class="control prev">❮</button>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-images">
+                            <img src="img/piscineiro1.jpg" alt="Imagem 1">
+                            <img src="img/piscineiro2.jpg" alt="Imagem 2">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="control next">❯</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="divRight">
+
+                <div class="checkboxes">
+                    <h1 class="tituloCheckboxes">Selecione um ou mais serviços:</h1>
+                    <label class="servicos">
+                        <input type="checkbox" value="130" class="item" onchange="atualizarTotal()">Limpeza Básica de
+                        Piscina: R$130,00
+                        <br><br>
+                        <p class="paragrafoServicos">
+                            Inclui aspiração, remoção de sujeira e verificação do equilíbrio químico da água.</p>
+                    </label>
+                    <label class="servicos">
+                        <input type="checkbox" value="300" class="item" onchange="atualizarTotal()"> Limpeza de
+                        Revestimento de Piscina: R$300,00
+                        <br><br>
+                        <p class="paragrafoServicos">
+                            Envolve a limpeza profunda do revestimento, removendo algas e sujeiras acumuladas.</p>
+                    </label>
+                    <label class="servicos">
+                        <input type="checkbox" value="300" class="item" onchange="atualizarTotal()"> Manutenção Mensal
+                        de Piscina: R$300,00
+                        <br><br>
+                        <p class="paragrafoServicos">Serviço contínuo que inclui limpeza regular, verificação do
+                            equilíbrio químico e pequenos reparos.</p>
+                    </label>
+                </div>
+                <div class="finGeral">
+                    <div class="finalizar">
+                        <h2 class="finalizacao">Valor total dos serviços: R$ <span id="total">0</span>
+                            <h1 id="finalizar">Finalizar</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerMae">
+            <div class="footerLeft">
+                <h1 class="titulosFooter">Sobre nós</h1>
+                <div class="linhas">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                </div>
+                <p id="frase">Somos uma empresa de jovens com o proposito inovador de facilitar sua vida!</p>
+            </div>
+            <div class="footerRight">
+                <h1 class="titulosFooter">Links</h1>
+                <div class="linhas">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                </div>
+                <ul>
+                    <li class="linksFooter">Home</li>
+                    <li class="linksFooter">Serviços</li>
+                    <li class="linksFooter">Colaboradores</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="jardineiro1.js"></script>
+</body>
+
+</html>

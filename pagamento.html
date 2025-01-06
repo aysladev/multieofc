@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="pagamento.css">
+</head>
+
+<body>
+    <script src="pagamento.js"></script>
+    <div class="mae">
+        <header class="header">
+            <h1 class="logo">multi<span class="highlight">E</span></h1>
+        </header>
+        <div class="divmae">
+            <div class="divGeral">
+                <div class="geral">
+                    <div class="titulo">
+                        <h1>Escolha a forma de pagamento</h1>
+                    </div>
+                    <div class="payment-option">
+                        <input type="radio" id="credit" name="payment" value="credit">
+                        <label for="credit" class="payment-label">Cartão de Crédito</label>
+                    </div>
+
+                    <div class="payment-option">
+                        <input type="radio" id="debit" name="payment" value="debit">
+                        <label for="debit" class="payment-label">Cartão de Débito</label>
+                    </div>
+
+                    <div id="payment-option" class="payment-option">
+                        <input type="radio" id="pix" name="payment" value="pix">
+                        <label for="pix" class="payment-label">Pix</label>
+                    </div>
+
+                    <button id="finalizar" type="button" onclick="finalizarPagamento()">Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
