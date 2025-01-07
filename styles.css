@@ -103,7 +103,8 @@ body {
 }
 
 .auth-buttons .signup:hover {
-    background-color: #f8f8f8;
+    background-color: #ff0000;
+    color: #ddd;
 }
 
 .services {
@@ -389,4 +390,8 @@ body {
 }
 html {
     scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }

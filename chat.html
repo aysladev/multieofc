@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="chat.js"></script>
+</head>
+<body>
+    
+    <div class="chat-container">
+        <aside class="sidebar">
+            <div class="user-card profile-card" id="user-marinelson">
+                <img class="user-avatar" src="img/icon.png" alt="Marinelson">
+                <div class="user-info">
+                    <span class="user-name">Marinelson</span>
+                    <span class="user-role">Meu Perfil</span>
+                </div>
+            </div>
+            <div class="user-card contact-card" id="user-gilsoneto">
+                <img class="user-avatar" src="img/icon2.jpg" alt="Gilsoneto">
+                <div class="user-info">
+                    <span class="user-name">Gilsoneto</span>
+                    <span class="user-role">Jardineiro</span>
+                </div>
+            </div>
+            <div class="user-card contact-card" id="user-fatima">
+                <img class="user-avatar" src="img/icon3.jpg" alt="Fátima">
+                <div class="user-info">
+                    <span class="user-name">Fátima</span>
+                    <span class="user-role">Diarista</span>
+                </div>
+            </div>
+            <div class="home-link">
+                <a href="index.html">Início</a> 
+            </div>
+        </aside>
+        <main class="chat-main">
+            <header class="header">
+        <h1 class="logo">multi<span class="highlight">E</span></h1>
+    </header>
+            <header class="chat-header">
+                <h1>Gilsoneto - Jardineiro</h1>
+            </header>
+            <section class="messages" id="messages">
+                <div class="message user">
+                    <img class="message-avatar" src="img/icon2.jpg" alt="Gilsoneto">
+                    <div class="message-content">Olá, tudo bem? Como o meu serviço pode te ajudar hoje?</div>
+                </div>
+                <div class="message self">
+                    <div class="message-content">Oi! Tudo ótimo! Preciso podar minhas plantinhas, Gilsoneto.</div>
+                </div>
+            </section>
+            <div class="input-container">
+                <input type="text" id="messageInput" placeholder="Digite uma mensagem">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+            <footer class="footer">
+        <div class="footer-content">
+            <a href="#"><h3 class="footer-title">multi<span class="highlight">E</span></h3></a>
+            <p class="footer-text">Conectando soluções, facilitando sua vida!</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon">Facebook</a>
+                <a href="https://www.x.com" target="_blank" class="social-icon">Twitter</a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MultiE. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+        </main>
+    </div>
+    
+</body>
+</html>
